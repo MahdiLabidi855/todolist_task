@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:title="Nots"
+        android:id="@+id/itemnots"
+        android:icon="@drawable/list"/>
+    <item
+    android:title="My Name"
+    android:id="@+id/myname"
+    android:icon="@drawable/person"/>
+    <item
+        android:title="My email"
+        android:id="@+id/myemail"
+        android:icon="@drawable/ic_baseline_email_24"/>
+
+    <item
+        android:title="My phone"
+        android:id="@+id/myphone"
+        android:icon="@drawable/phone"/>
+
+    <item
+        android:title="My password"
+        android:id="@+id/mypassword"
+        android:icon="@drawable/password"/>
+
+    <item android:title="Logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"/>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item><rotate android:toDegrees="0" android:fromDegrees="-40">
+    <shape android:shape="ring"
+        android:useLevel="false"
+        android:thickness="2dp"
+        >
+        <padding android:right="20dp"
+            android:top="20dp"
+            android:left="20dp"
+            android:bottom="20dp"/>
+        <gradient android:startColor="#00DDDDDD"
+            android:centerColor="#00DDDDDD"
+            android:endColor="#00BCD4"/>
+
+<size
+    android:layout_width="110dp"
+    android:layout_height="110dp"/>
+
+    </shape>
+</rotate>
+</item>
+</selector>
